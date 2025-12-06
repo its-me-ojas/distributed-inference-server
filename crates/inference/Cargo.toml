@@ -1,0 +1,22 @@
+[package]
+name = "inference-engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+inference-core = { path = "../core" }
+
+[dependencies.tokio]
+workspace = true
+
+[dependencies.thiserror]
+workspace = true
+
+[dependencies.tracing]
+workspace = true
+
+[dependencies.async-trait]
+workspace = true
+
+[dev-dependencies.proptest]
+workspace = true

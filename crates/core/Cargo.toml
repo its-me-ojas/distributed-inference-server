@@ -1,0 +1,22 @@
+[package]
+name = "inference-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.serde]
+workspace = true
+
+[dependencies.serde_json]
+workspace = true
+
+[dependencies.thiserror]
+workspace = true
+
+[dependencies.uuid]
+workspace = true
+
+[dependencies.chrono]
+workspace = true
+
+[dev-dependencies.proptest]
+workspace = true
